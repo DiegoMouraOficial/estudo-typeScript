@@ -1,0 +1,68 @@
+form {
+  width: 90%;
+  max-width: 40rem;
+  margin: 2rem auto;
+}
+
+.form-control {
+  margin-bottom: 1.2rem;
+}
+
+.todo-text {
+  margin-bottom: inherit;
+}
+
+label, input {
+  display: block;
+  width: 100%;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  font: inherit;
+  border: 1px solid #ccc;
+  padding: 0.25rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #094d1b;
+}
+
+#buttonOne {
+  background: #02bf64;
+  border: 1px solid #02bf64;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+button {
+  background: #b5083f;
+  border: 1px solid #b5083f;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+
+button:focus {
+  outline: none;
+}
+
+#buttonOne:hover,
+#buttonOne:active
+{
+  background: #086b15;
+  border-color: #086b15;
+}
+
+button:hover,
+button:active
+{
+  background: #ad0808;
+  border-color: #ad0808;
+}
